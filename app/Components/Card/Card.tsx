@@ -2,11 +2,8 @@ export default function Card() {
     return (
 
 
-        <div className="max-w-[720px] mx-auto grid grid-cols-2 gap-24 min-h-screen">
-
-
-
-            <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+        <div className="flex flex-row-reverse justify-center ">
+            <div className=" mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                 <div className="p-6">
                     <img src="https://cdn-icons-png.flaticon.com/512/14441/14441641.png" alt="logo" className="h-10 " />
                     <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -31,7 +28,7 @@ export default function Card() {
                     </a>
                 </div>
             </div>
-            <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div className="mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                 <div className="p-6">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                         className="w-12 h-12 mb-4 text-gray-900">
@@ -64,7 +61,7 @@ export default function Card() {
                     </a>
                 </div>
             </div>
-            <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div className="mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                 <div className="p-6">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                         className="w-12 h-12 mb-4 text-gray-900">
@@ -97,7 +94,7 @@ export default function Card() {
                     </a>
                 </div>
             </div>
-            <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div className="mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                 <div className="p-6">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                         className="w-12 h-12 mb-4 text-gray-900">

@@ -22,12 +22,14 @@ export default function ClientLayoutWrapper({ children }: { children: React.Reac
   }, [pathname]);
   return (
     <html lang="en">
-      <body className='flex flex-col min-h-screen bg-pink-950'>
+      <body className='min-h-screen flex flex-col bg-emerald-950'>
         <header>
           <Navbar />
         </header>
+
+
         <main className='flex-grow'>
-         {loading? <LoadingSpinner />: children}
+          {loading ? <LoadingSpinner /> : children}
         </main>
         <footer>
           <Footer />
